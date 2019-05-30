@@ -92,7 +92,7 @@
   :error-patterns
   `((error   ,@(flycheck-ats2-rx-level "error"))
     (warning ,@(flycheck-ats2-rx-level "warning")))
-  :modes 'ats-mode)
+  :modes 'ats2-mode)
 
 ;;;###autoload
 (defun flycheck-ats2-setup ()
